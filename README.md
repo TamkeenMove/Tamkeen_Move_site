@@ -22,13 +22,9 @@
       margin: 0;
       font-size: 32px;
     }
-    .hero {
-      width: 100%;
-      max-height: 300px;
-      overflow: hidden;
-    }
     .hero img {
       width: 100%;
+      max-height: 300px;
       object-fit: cover;
     }
     .content {
@@ -42,6 +38,35 @@
     .info p {
       font-size: 18px;
       margin: 10px 0;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .buttons a {
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    .buttons a.call {
+      background-color: #0077b6;
+    }
+    .map {
+      margin-top: 30px;
+      text-align: center;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      max-width: 100%;
+      height: 300px;
+      border-radius: 8px;
     }
     footer {
       background-color: #0077b6;
@@ -59,7 +84,7 @@
   </header>
 
   <div class="hero">
-    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80" alt="Tamkeen Move Image" />
+    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80" alt="Tamkeen Move Truck" />
   </div>
 
   <div class="content">
@@ -68,6 +93,18 @@
       <p><strong>📞 رقم الهاتف:</strong> 01062830368</p>
       <p><strong>📧 البريد الإلكتروني:</strong> nasrmohamed111659@gmail.com</p>
       <p><strong>🕒 ساعات العمل:</strong> 24 ساعة يوميًا</p>
+    </div>
+
+    <div class="buttons">
+      <a href="https://wa.me/201062830368" target="_blank">📱 تواصل واتساب</a>
+      <a href="tel:01062830368" class="call">📞 اتصال مباشر</a>
+    </div>
+
+    <div class="map">
+      <h3>موقعنا على الخريطة</h3>
+      <iframe 
+        src="https://www.google.com/maps?q=21.3891,39.8579&hl=ar&z=14&amp;output=embed">
+      </iframe>
     </div>
   </div>
 
