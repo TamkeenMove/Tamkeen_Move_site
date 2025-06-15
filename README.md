@@ -3,45 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tamkeen Move | تمكين موف</title>
+  <title>تمكين موف | Tamkeen Move</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
       direction: rtl;
     }
     header {
-      background-color: #2c3e50;
+      background-color: #0077b6;
       color: white;
-      padding: 30px 0;
+      padding: 20px;
+      text-align: center;
     }
-    h1 {
+    header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 32px;
+    }
+    .hero {
+      width: 100%;
+      max-height: 300px;
+      overflow: hidden;
+    }
+    .hero img {
+      width: 100%;
+      object-fit: cover;
     }
     .content {
-      padding: 40px 20px;
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .info {
-      font-size: 20px;
-      line-height: 2;
-      margin-top: 20px;
+    .info p {
+      font-size: 18px;
+      margin: 10px 0;
     }
     footer {
-      background-color: #2c3e50;
+      background-color: #0077b6;
       color: white;
-      padding: 15px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    img.logo {
-      width: 100px;
-      margin-top: 10px;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -49,8 +56,11 @@
 
   <header>
     <h1>تمكين موف | Tamkeen Move</h1>
-    <img src="https://via.placeholder.com/100x100.png?text=Logo" alt="Logo" class="logo" />
   </header>
+
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80" alt="Tamkeen Move Image" />
+  </div>
 
   <div class="content">
     <div class="info">
