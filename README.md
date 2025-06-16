@@ -80,9 +80,8 @@
 <body>
 
   <header>
-    <h1>تمكين موف | Tamkeen Move</h1>
-  </header>
-
+  <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-3ZrNjtrCdiU8eTCiWH62eWqm/user-WZPm3RMyCzZK6f4k3XN8hEaw/img-5w1U0E0RuOcqKktW9pn3PG81.png" alt="Tamkeen Move Logo" style="max-width: 300px; margin: 20px auto; display: block;" />
+</header>
   <div class="hero">
     <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1400&q=80" alt="Tamkeen Move Truck" />
   </div>
