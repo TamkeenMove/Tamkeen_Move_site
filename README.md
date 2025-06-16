@@ -5,48 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tamkeen Move</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Playfair Display', serif;
       direction: rtl;
       background-color: #f9f9f9;
       margin: 0;
       padding: 0;
       text-align: center;
+      color: #222;
     }
 
     header {
       background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 30px 10px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
     header img {
-      max-width: 300px;
-      margin: 0 auto;
+      max-width: 280px;
       display: block;
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+      color: #333;
     }
 
     .info {
-      padding: 20px;
+      padding: 20px 10px;
+      font-size: 18px;
     }
 
     .map {
       margin: 20px auto;
-      max-width: 90%;
+      max-width: 95%;
     }
 
-    .gallery .grid {
+    .gallery {
+      padding: 20px;
+      background: #fff;
+    }
+
+    .gallery h2 {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #444;
+    }
+
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 15px;
-      margin: 20px;
+      gap: 20px;
     }
 
     .gallery img {
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: 10px;
+      border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
@@ -59,7 +79,7 @@
       background-color: #eee;
       padding: 15px;
       font-size: 14px;
-      color: #333;
+      color: #444;
     }
   </style>
 </head>
@@ -67,10 +87,11 @@
 
   <header>
     <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-3ZrNjtrCdiU8eTCiWH62eWqm/user-WZPm3RMyCzZK6f4k3XN8hEaw/img-5w1U0E0RuOcqKktW9pn3PG81.png" alt="Tamkeen Move Logo" />
+    <h1>Tamkeen Move</h1>
   </header>
 
   <div class="info">
-    <h2>مكة المكرمة - حي العزيزية - حي الوادي</h2>
+    <p>📍 مكة المكرمة - حي العزيزية - حي الوادي</p>
     <p>📞 01062830368</p>
     <p>📧 nasrmohamed111659@gmail.com</p>
     <p>⏰ نعمل على مدار 24 ساعة</p>
