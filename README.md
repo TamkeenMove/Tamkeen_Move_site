@@ -1,88 +1,94 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tamkeen Move</title>
   <style>
     body {
+      font-family: 'Tajawal', sans-serif;
+      background-color: #f5f5f5;
+      text-align: center;
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: #f4f4f4;
+      padding: 0;
     }
     header {
-      background: #333;
-      color: #fff;
-      padding: 25px 15px;
-      text-align: center;
+      padding: 20px;
+      background-color: #fff;
     }
-    header h1 {
-      margin: 10px 0;
-      font-size: 30px;
-    }
-    .contact-section {
-      background: #222;
-      color: #fff;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    .contact-section a {
-      color: #fff;
-      text-decoration: underline;
-    }
-    .whatsapp-btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #25D366;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
+    .logo {
+      font-size: 48px;
       font-weight: bold;
-      font-size: 16px;
+      color: #222;
+    }
+    .truck-img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .circles {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+    .circle {
+      border: 2px solid #000;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      background-color: #fff;
+    }
+    .contact {
+      margin-top: 40px;
+      padding: 20px;
+    }
+    .whatsapp {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      display: inline-block;
+      margin-bottom: 20px;
     }
     iframe {
-      margin-top: 30px;
-      border: 0;
-      border-radius: 10px;
       width: 100%;
       height: 300px;
+      border: none;
+      border-radius: 12px;
     }
-    footer {
-      background: #111;
-      color: #ccc;
-      text-align: center;
-      padding: 10px;
-      font-size: 14px;
+    .footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <div class="logo">Tamkeen Move</div>
+  </header>  <img src="https://i.ibb.co/zPhHhnb/classic-truck.jpg" alt="Tamkeen Truck" class="truck-img">  <div class="circles">
+    <div class="circle">ثقة</div>
+    <div class="circle">أمان</div>
+    <div class="circle">راحة</div>
+  </div>  <div class="contact">
+    <a class="whatsapp" href="https://wa.me/201062830368" target="_blank">تواصل معنا على واتساب</a><h3>العنوان: العزيزية، حي الوادي، مكة المكرمة</h3>
+<iframe 
+  src="https://www.google.com/maps?q=21.3891,39.8579&hl=ar&z=14&amp;output=embed">
+</iframe>
 
-<header>
-  <h1>Tamkeen Move</h1>
-  <p>العزيزيه - حي الوادي - مكة المكرمة</p>
-</header>
-
-<section class="contact-section">
-  <h2>📍 بيانات التواصل</h2>
-  <p>📞 <a href="tel:01062830368">01062830368</a></p>
-  <p>📧 <a href="mailto:nasrmohamed111659@gmail.com">nasrmohamed111659@gmail.com</a></p>
-  <p>🕒 نعمل 24 ساعة</p>
-
-  <a href="https://wa.me/201062830368" target="_blank" class="whatsapp-btn">
-    تواصل على واتساب الآن
-  </a>
-
-  <iframe
-    src="https://www.google.com/maps?q=21.3888,39.8579&hl=ar&z=15&output=embed"
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</section>
-
-<footer>
-  &copy; 2025 Tamkeen Move. جميع الحقوق محفوظة.
-</footer>
-
+  </div>  <div class="footer">
+    <p>رقم الهاتف: 01062830368 | البريد الإلكتروني: nasrmohamed111659@gmail.com</p>
+    <p>ساعات العمل: متاح 24 ساعة</p>
+  </div>
 </body>
 </html>
